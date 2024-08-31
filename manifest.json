@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Image Viewer & Downloader",
+    "description": "An extension that allows you to view and download an image you click on",
+    "version": "0.0.1",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
