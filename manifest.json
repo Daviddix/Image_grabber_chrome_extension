@@ -8,5 +8,10 @@
     },
     "background": {
         "service_worker": "background.js"
-    }
+    },
+    "permissions": ["storage"],
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["cs.js"]
+    }]
 }
