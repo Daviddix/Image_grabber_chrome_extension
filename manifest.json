@@ -9,7 +9,9 @@
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["storage"],
+    "permissions": ["storage", "contextMenus",
+    "scripting"
+],
     "content_scripts": [{
         "matches": ["<all_urls>"],
         "js": ["cs.js"]
